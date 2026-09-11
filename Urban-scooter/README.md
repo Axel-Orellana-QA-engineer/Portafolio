@@ -30,10 +30,9 @@ Se diseñaron y ejecutaron colecciones de prueba para verificar los endpoints pr
 
 #### Defecto 1: Inconsistencia en la respuesta de la API al crear repartidor con datos duplicados
 * **Severidad:** Alta
-* **Resultado Esperado:** La API debe devolver un código `409 Conflict` cuando el login ya existe.
-* **Resultado Obtenido:** La API devuelve `400 Bad Request` con un mensaje de error ambiguo.
-
-![Reporte de Bug en Jira](./bug_jira_duplicados.png)
+* **Resultado Esperado:** El back end debe rechazar al intentar eliminar un repartidor sin ingresar "id" con código '400 Bad Request´.
+* **Resultado Obtenido:** El servidor responde con un código: 404 Not Found, el Body invluye el mensaje de error “Not Found”.
+![Reporte de Bug en Jira](https://axel-orellana.atlassian.net/browse/KAN-22)
 
 ---
 
@@ -50,7 +49,5 @@ Se diseñaron y ejecutaron colecciones de prueba para verificar los endpoints pr
 Se ejecutaron consultas a la base de datos para corroborar que las acciones realizadas a través de la API impactaran correctamente en las tablas:
 
 ```sql
--- Verificación de eliminación de un repartidor
-SELECT* FROM "Couriers" WHERE id = 12345;
 -- Verificación de eliminación de un repartidor
 SELECT * FROM "Couriers" WHERE id = 12345;
