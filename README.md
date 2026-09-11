@@ -48,4 +48,4 @@ Portafolio Quality assuranse | Axel Orellana
 
 ## 📬 Contacto
 * **LinkedIn:** [linkedin.com/in/axel-orellana](https://www.linkedin.com)
-* **Correo Electrónico:** axel.orellana@ejemplo.com
+* **Correo Electrónico:** michtole23@gmail.com
