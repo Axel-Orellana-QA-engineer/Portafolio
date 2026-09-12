@@ -22,7 +22,7 @@ Se diseñaron y ejecutaron colecciones de prueba para verificar los endpoints pr
 * `DELETE /api/v1/courier/:id` — Eliminación de registros y verificación de manejo de errores (`404 Not Found`).
 
 📂 **Descarga de evidencia:**  
-* [Descargar Colección de Postman (.json)](./Urban-Scooter-Postman.json)
+* [Descargar Colección de Postman (.json)](./Urban-Scooter_postman_collection_json)
 
 ---
 
