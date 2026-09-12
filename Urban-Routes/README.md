@@ -26,7 +26,7 @@ Se realizaron sesiones de pruebas exploratorias estructuradas para auditar la ap
 
 ## 📂 Archivos y Evidencias del Proyecto
 
-* 📜 [Ver Checklist y Casos de Prueba de UI/UX](./Checklist-Urban-Routes.pdf) 
+* 📜 [Ver Checklist UI/UX](./Checklist-Urban-Routes.pdf) 
 * 🐛 [Ver Reporte Consolidado de Defectos en Jira](./Bug-Reports-Urban-Routes.pdf)
 
 ---
@@ -46,8 +46,8 @@ Se realizaron sesiones de pruebas exploratorias estructuradas para auditar la ap
 * **Severidad:** Media/ 
 * **Resultado Esperado:** Ventana "Automovil reservado" aparece centrada y muestra marca, placa, ícono, dirección, costo y temporizador.
 * **Resultado Obtenido:** La ventana no muestra la información necesaria como: marca, placa, ícono, dirección, costo y temporizador.
-* **Evidencia Visual:** 🔍 [Ver captura del error en Jira](./Bug_diseño_ventana_reservado_1.png)
-
+* **Evidencia Visual:** 🔍 [Ver captura del error en Jira 1](./Bug_diseño_ventana_reservado_1.png)
+* **Evidencia Visual:** 🔍 [Ver captura del error en Jira 2](./Bug_diseño_ventana_reservado_2.png)
 ---
 
 ## 📊 Conclusiones del Testing
