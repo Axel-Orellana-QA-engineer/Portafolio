@@ -25,10 +25,7 @@ Portafolio Quality assuranse | Axel Orellana
   * Validación de códigos de respuesta HTTP (`200`, `201`, `400`, `404`, `409`) y manejo de errores.
   * Análisis de valores límite (BVA) y clases de equivalencia para la creación/eliminación de repartidores.
   * Verificación directa en base de datos mediante consultas SQL para comprobar la persistencia y eliminación de datos.
-* **📂 Enlaces a Evidencias del Proyecto:**
-  * [Ver Matriz de Casos de Prueba y Checklists](./Urban-Scooter/Test-Cases-Checklist.pdf)
-  * [Ver Reportes de Bugs en Jira](./Listado_bugs_jira.png)
-  * [Descargar Colección de Postman (.json)](./Urban-Scooter/Urban-Scooter-Postman.json)
+* **📂 Enlaces a Evidencias dentro del Proyecto:**
 
 ---
 
@@ -40,9 +37,8 @@ Portafolio Quality assuranse | Axel Orellana
   * Pruebas exploratorias por sesiones (Funcionalidad, Usabilidad y Límites).
   * Inspección de elementos de UI y consola de errores mediante Chrome DevTools.
   * Reporte y seguimiento del ciclo de vida de defectos en Jira con pasos detallados para su reproducción.
-* **📂 Enlaces a Evidencias del Proyecto:**
-  * [Ver Casos de Prueba y Evidencias Visuales](./Urban-Routes/Test-Cases-UI.pdf) 
-  * [Ver Reportes de Defectos en Jira](./Urban-Routes/Bug-Reports-UI.pdf)
+* **📂 Enlaces a Evidencias dentro del Proyecto:**
+
 
 ---
 
