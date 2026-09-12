@@ -32,7 +32,7 @@ Se diseñaron y ejecutaron colecciones de prueba para verificar los endpoints pr
 * **Severidad:** Alta
 * **Resultado Esperado:** El back end debe rechazar al intentar eliminar un repartidor sin ingresar "id" con código '400 Bad Request´.
 * **Resultado Obtenido:** El servidor responde con un código: 404 Not Found, el Body invluye el mensaje de error “Not Found”.
-![Reporte de Bug en Jira](./Reporte_KAN-22.1.PNG)
+![Reporte de Bug en Jira](https://github.com/Axel-Orellana-QA-engineer/Portafolio/blob/main/Urban-scooter/Reporte_KAN-22.1.png)
 
 ---
 
