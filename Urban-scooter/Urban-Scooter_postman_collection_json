@@ -1,0 +1,198 @@
+{
+  "info": {
+    "_postman_id": "f8b36025-3366-4f9b-9895-8aaf37418661",
+    "name": "Proyecto_final",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "25493914"
+  },
+  "item": [
+    {
+      "name": "nuevo_mensajero",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"login\": \"Axel\",\r\n    \"password\": \"1234\",\r\n    \"firstName\": \"saske\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/courier",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "courier"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Nueva_orden",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Naruto\",\r\n    \"lastName\": \"Uchiha\",\r\n    \"address\": \"Konoha, 142 apt.\",\r\n    \"metroStation\": 4,\r\n    \"phone\": \"+7 800 355 35 35\",\r\n    \"rentTime\": 2,\r\n    \"deliveryDate\": \"2026-08-27\",\r\n    \"comment\": \"Saske, come back to Konoha\",\r\n    \"color\": [\r\n        \"BLACK\"\r\n    ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/orders",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "orders"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar_mensajero",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/courier/",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "courier",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Obtener_pedido_po_su_número",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/orders/track?t=177887",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "orders",
+            "track"
+          ],
+          "query": [
+            {
+              "key": "t",
+              "value": "177887"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Aceptar_pedido",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/orders/accept/1?courierId=75738",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "orders",
+            "accept",
+            "1"
+          ],
+          "query": [
+            {
+              "key": "courierId",
+              "value": "75738"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cancelar_pedido",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"track\": 558367\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/orders/cancel",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "orders",
+            "cancel"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
