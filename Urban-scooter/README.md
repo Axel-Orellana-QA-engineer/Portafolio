@@ -36,10 +36,10 @@ Se diseñaron y ejecutaron colecciones de prueba para verificar los endpoints pr
 [Reporte de Bug 2 en Jira](Reporte_KAN-22.2.png)
 ---
 
-#### Defecto 2: Fallo de validación al eliminar un repartidor inexistente
+#### Defecto 2: Fallo de validación al eliminar un repartidor sin ID
 * **Severidad:** Media
-* **Resultado Esperado:** Al enviar un ID inexistente, el servidor debe responder con código `404 Not Found`.
-* **Resultado Obtenido:** El servidor responde con error `500 Internal Server Error`.
+* **Resultado Esperado:** Al enviar la solicitud sin un ID, el servidor debe responder con código `400 Bad Request`.
+* **Resultado Obtenido:** El servidor responde con error `404 Not Found`.
 
 ![Captura de respuesta en Postman](./evidencia_postman_404.png)
 
