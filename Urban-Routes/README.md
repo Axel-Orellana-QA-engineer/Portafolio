@@ -8,8 +8,8 @@ Urban Routes es una aplicación web interactiva diseñada para la reserva y pers
 ## 🛠️ Herramientas y Entorno de Pruebas
 * **Gestión de Pruebas y Defectos:** Jira.
 * **Inspección Web y Consola:** Chrome DevTools (Inspección de elementos, red y consola de JavaScript).
-* **Diseño de Pruebas:** Hojas de comprobación (Checklists) y Matrices de Casos de Prueba (Excel/Google Sheets).
-* **Navegadores Probados:** Google Chrome (última versión), Mozilla Firefox.
+* **Diseño de Pruebas:** Hojas de comprobación (Checklists) y Matrices de Casos de Prueba (Google Sheets).
+* **Navegadores Probados:** Google Chrome (versión 146.0.7680.80), Mozilla Firefox.
 
 ---
 
@@ -26,17 +26,17 @@ Se realizaron sesiones de pruebas exploratorias estructuradas para auditar la ap
 
 ## 📂 Archivos y Evidencias del Proyecto
 
-* 📜 [Ver Checklist y Casos de Prueba de UI/UX](./Checklist-Urban-Routes.pdf) *(O la extensión .xlsx si subiste un Excel)*
+* 📜 [Ver Checklist y Casos de Prueba de UI/UX](./Checklist-Urban-Routes.pdf) 
 * 🐛 [Ver Reporte Consolidado de Defectos en Jira](./Bug-Reports-Urban-Routes.pdf)
 
 ---
 
 ## 🔍 Ejemplos de Defectos Identificados
 
-#### Defecto 1: Inconsistencia visual al seleccionar la opción de asiento para niños
+#### Defecto 1: Inconsistencia visual en los pines de punto de partida y destino
 * **Severidad:** Media / UI
-* **Resultado Esperado:** Al activar el interruptor de "Asiento infantil", la tarifa total debe actualizarse y el botón de confirmación debe permanecer habilitado.
-* **Resultado Obtenido:** El botón de confirmación se deshabilita y la etiqueta del costo se superpone con el texto de la interfaz.
+* **Resultado Esperado:** El mapa debe mostrar el punto de partida con un circulo y el punto de destino con un circulo y un pin en color rojo.
+* **Resultado Obtenido:** El mapa muestra los dos puntos con pines en color rojo y una letra al interior en color blanca.
 * **Evidencia Visual:** 🔍 [Ver captura del error en Jira](./bug_ui_asiento_infantil.png)
 
 ---
