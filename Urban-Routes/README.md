@@ -26,8 +26,8 @@ Se realizaron sesiones de pruebas exploratorias estructuradas para auditar la ap
 
 ## 📂 Archivos y Evidencias del Proyecto
 
-* 📜 [Ver Checklist UI/UX](./Checklist-Urban-Routes.pdf) 
-* 🐛 [Ver Reporte Consolidado de Defectos en Jira](./Bug-Reports-Urban-Routes.pdf)
+* 📜 [Ver Checklist UI/UX](./Checklist_UI_UX.png) 
+* 🐛 [Ver Reporte Consolidado de Defectos en Jira](./Listado_bugs_jira.png)
 
 ---
 
