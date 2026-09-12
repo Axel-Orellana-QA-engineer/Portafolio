@@ -27,7 +27,7 @@ Portafolio Quality assuranse | Axel Orellana
   * Verificación directa en base de datos mediante consultas SQL para comprobar la persistencia y eliminación de datos.
 * **📂 Enlaces a Evidencias del Proyecto:**
   * [Ver Matriz de Casos de Prueba y Checklists](./Urban-Scooter/Test-Cases-Checklist.pdf)
-  * [Ver Reportes de Bugs en Jira](./Urban-Scooter/Bug-Reports-Jira.pdf)
+  * [Ver Reportes de Bugs en Jira](./Listado_bugs_jira.png)
   * [Descargar Colección de Postman (.json)](./Urban-Scooter/Urban-Scooter-Postman.json)
 
 ---
