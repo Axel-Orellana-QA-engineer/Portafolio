@@ -43,10 +43,10 @@ Se realizaron sesiones de pruebas exploratorias estructuradas para auditar la ap
 ---
 
 #### Defecto 2: Fallo en la validación del formulario de número telefónico
-* **Severidad:** Alta / Funcional
-* **Resultado Esperado:** El campo de número telefónico debe solicitar un código de confirmación vía SMS antes de habilitar el botón "Siguiente".
-* **Resultado Obtenido:** La aplicación permite avanzar en el flujo sin ingresar un número válido al presionar repetidamente la tecla `Enter`.
-* **Evidencia Visual:** 🔍 [Ver captura del fallo de validación](./bug_validacion_telefono.png)
+* **Severidad:** Media/ 
+* **Resultado Esperado:** Ventana "Automovil reservado" aparece centrada y muestra marca, placa, ícono, dirección, costo y temporizador.
+* **Resultado Obtenido:** La ventana no muestra la información necesaria como: marca, placa, ícono, dirección, costo y temporizador.
+* **Evidencia Visual:** 🔍 [Ver captura del error en Jira](./Bug_diseño_ventana_reservado_1.png)
 
 ---
 
