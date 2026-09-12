@@ -41,7 +41,7 @@ Se diseñaron y ejecutaron colecciones de prueba para verificar los endpoints pr
 * **Resultado Esperado:** Al enviar la solicitud sin un ID, el servidor debe responder con código `400 Bad Request`.
 * **Resultado Obtenido:** El servidor responde con error `404 Not Found`.
 
-![Captura de respuesta en Postman](./evidencia_postman_404.png)
+[Captura de respuesta en Postman](./Postman_respuesta)
 
 ---
 
