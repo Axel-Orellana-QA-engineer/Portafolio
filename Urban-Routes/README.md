@@ -37,7 +37,8 @@ Se realizaron sesiones de pruebas exploratorias estructuradas para auditar la ap
 * **Severidad:** Media / UI
 * **Resultado Esperado:** El mapa debe mostrar el punto de partida con un circulo y el punto de destino con un circulo y un pin en color rojo.
 * **Resultado Obtenido:** El mapa muestra los dos puntos con pines en color rojo y una letra al interior en color blanca.
-* **Evidencia Visual:** 🔍 [Ver captura del error en Jira](./Bug_diseño_pines_1.png)
+* **Evidencia Visual 1:** 🔍 [Ver captura del error en Jira](./Bug_diseño_pines_1.png)
+* **Evidencia Visual 2:** 🔍 [Ver captura del error en Jira](./Bug_diseño_pines_2.png)
 
 ---
 
